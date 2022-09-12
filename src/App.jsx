@@ -23,7 +23,7 @@ function App() {
     <div className="container">
       <div className="content-header">
         <div className="bg-header">
-          <img src="src/assets/images/rym.png" alt="" />
+          <img src="/images/rym.png" alt="" />
         </div>
 
         <div className="search">
