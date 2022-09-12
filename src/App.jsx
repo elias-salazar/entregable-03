@@ -19,11 +19,12 @@ function App() {
     return setNumM(numM - 4), setNumP(numP - 4);
   };
   console.log(rmLocation.name);
+  const bg = "src/assets/images/rym.png";
   return (
     <div className="container">
       <div className="content-header">
         <div className="bg-header">
-          <img src="/images/rym.png" alt="" />
+          <img src={bg} alt="" />
         </div>
 
         <div className="search">
