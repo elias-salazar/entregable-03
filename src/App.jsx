@@ -24,7 +24,9 @@ function App() {
     <div className="container">
       <div className="content-header">
         <div className="bg-header">
-          <img src={bg} alt="" />
+          {" "}
+          <p>hola</p>
+          {/* <img src={bg} alt="" /> */}
         </div>
 
         <div className="search">
