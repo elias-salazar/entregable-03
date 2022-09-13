@@ -62,11 +62,6 @@ function App() {
                     i >= numM &&
                     i < numP && <Residentes url={resident} key={resident} />
                 )}
-                {rmLocation.residents?.length % 4 === 0 && (
-                  <>
-                    <button>hola</button>
-                  </>
-                )}
               </div>
               {rmLocation.residents?.length > numP && (hide1 = "")}
 
